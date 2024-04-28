@@ -1,0 +1,151 @@
+header {
+    background-color: #165260;
+    height: 100px;
+}
+
+.main {
+    background-color: #165260;
+    height: auto;
+}
+
+footer {
+    background-color: #165260;
+    height: 100px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navBarTop {
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    color: white;
+}
+
+.navBarTopUl {
+    justify-content: flex-end;
+
+}
+
+.navBarTopLi {
+    display: inline-block;
+    float:right;
+    flex-direction: row-reverse;
+    margin: 15px;
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: 20;
+  font-weight: reg;
+  font-style: normal;
+    
+}
+
+.navBarTopLi a {
+    color: white;
+    text-decoration: none;
+}
+
+.navBarTopLi a:hover {
+    color: white;
+    text-decoration-line: underline;
+   
+}
+
+.mainGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 80px;
+    padding: 80px;
+}
+
+.navGrid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 80px;
+    padding: 20px 80px;
+}
+
+.info {
+    background-color:#165260;
+    color: white;
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: 20px;
+  font-weight: reg;
+  font-style: normal;
+  padding: 50px;
+    
+}
+
+.myName {
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: 24px;
+  font-weight: bold;
+  font-style: normal;
+    color: white;
+    align-items: center;
+    padding: 15px 0px;
+}
+
+.h1 {
+    font-family: "Inter", sans-serif;
+  font-size: 48px;
+  font-weight: reg;
+  font-style: normal;
+    color: white;
+}
+
+.connect {
+    color: white;
+    font-family: "Inter", sans-serif;
+  font-size: 28px;
+  font-weight: reg;
+  font-style: normal;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footerInfoUl {
+    display: flex;
+    justify-content: center;
+}
+
+.footerInfoLi {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    margin: 20px;
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: 20;
+  font-weight: reg;
+  font-style: normal;
+}
+.footerInfoLi a {
+    color: white;
+    text-decoration: none;
+}
+
+.footerInfoLi a:hover {
+    color: white;
+    text-decoration-line: underline;
+   
+}
+.copyright {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    margin: 20px;
+    font-family: "Inter", sans-serif;
+  font-size: 12px;
+  font-weight: reg;
+  font-style: normal;
+  color: white;
+  background-color:#165260;
+  height: 60px;
+  margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
