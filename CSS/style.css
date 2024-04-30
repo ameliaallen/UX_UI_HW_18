@@ -8,6 +8,60 @@ header {
     height: auto;
 }
 
+.hi {
+    background-color: #165260;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 80px;
+    padding: 80px;
+}
+
+.flexContainer {
+    background-color: #165260;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 33 33 33;
+    margin: 0px;
+    padding: 80px;
+}
+
+.myWork {
+    background-color: white;
+    height: 600px;
+    width: 400px;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+.workTitle {
+    font-family: "Inter", sans-serif;
+    font-size: 48px;
+    font-weight: reg;
+    font-style: normal;
+    color: white;
+    padding: 80px;
+}
+
+.mySkills {
+    background-color: white;
+    height: 600px;
+    width: 400px;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+.skillsTitle {
+    font-family: "Inter", sans-serif;
+    font-size: 48px;
+    font-weight: reg;
+    font-style: normal;
+    color: white;
+    background-color: #165260;
+    padding: 80px;
+}
+
 footer {
     background-color: #165260;
     height: 100px;
@@ -28,13 +82,13 @@ footer {
 
 .navBarTopUl {
     justify-content: flex-end;
+    
 
 }
 
 .navBarTopLi {
     display: inline-block;
     float:right;
-    flex-direction: row-reverse;
     margin: 15px;
     font-family: "Inter", sans-serif;
   font-optical-sizing: 20;
@@ -95,6 +149,38 @@ footer {
   font-weight: reg;
   font-style: normal;
     color: white;
+}
+
+.h2 {
+    font-family: "Inter", sans-serif;
+  font-size: 32px;
+  font-weight: reg;
+  font-style: normal;
+    color: white;
+}
+
+.h2black {
+    font-family: "Inter", sans-serif;
+  font-size: 32px;
+  font-weight: reg;
+  font-style: normal;
+    color: black;
+}
+
+.p {
+    font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: reg;
+  font-style: normal;
+    color: white;
+}
+
+.pBlack {
+    font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: reg;
+  font-style: normal;
+    color: black;
 }
 
 .connect {
