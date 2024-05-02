@@ -17,7 +17,7 @@ header {
     padding: 80px;
 }
 
-/* this is making things weird*/
+/* this is making things weird so I went back to using grids*/
 .flexContainer {
     background-color: #165260;
     display: flex;
@@ -31,7 +31,10 @@ header {
     background-color: #165260;
     height: auto;
 }
-
+.skills {
+    background-color: #165260;
+    height: auto;
+}
 .myWork {
     background-color: white;
     height: 600px;
@@ -234,6 +237,23 @@ footer {
   justify-content: center;
   padding-top: 80px;
 }
+.seeAll a {
+    background-color: #165260;
+    color: white;
+    font-family: "Inter", sans-serif;
+    text-decoration: none;
+  font-size: 28px;
+  font-weight: reg;
+  font-style: normal;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 80px;
+}
+.seeAll a:hover {
+    color: white;
+    text-decoration-line: underline;
+}
 
 .footerInfoUl {
     display: flex;
@@ -291,4 +311,18 @@ button {
   font-style: normal;
   margin: 20px;
 }
-
+.workButton {
+    width: 100px;
+    height: 40px;
+    justify-self: center;
+    background-color: #50B69E;
+    color: white;
+    border: 0px;
+    border-radius: 4px;
+    font-family: "Inter", sans-serif;
+    margin-left: 114px;
+  font-optical-sizing: 20;
+  font-weight: reg;
+  font-style: normal;
+  
+}
